@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.companylogo{
+    height: 60px;
+    width: 60px;
+    background-image: url("https://pbs.twimg.com/profile_images/1350206744044122112/YLACQslk_400x400.jpg");
+    background-size: 100% 100%;
+    position: fixed;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    transition: .08s;
+    margin: 0 10px;
+    line-height: 60px;
+    float: end;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.splash_screen{;
+    width: 100%;
+    height: 350px;
+    background-image: url("https://i.pinimg.com/originals/bb/20/11/bb2011f64a0214dc97dc16cc430bb0d1.jpg");
+    background-size: 95% 90%;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.tagline{
+    padding-top: 240px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.container1{
+    margin-top: 30px;
+    width: 730px;
+    height: 200px;
+    background-color: black;
+}
+
+.company_description{
+    padding-top: 90px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+}
+
+.container2{
+    margin-top: 30px;
+    width: 730px;
+    height: 200px;
+    background-color: black;
+}
+
+.company_products{
+    padding-top: 90px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+}
+
+footer{
+    margin-top: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    font-size: larger;
+    text-align: center;
+}
